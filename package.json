@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-navigationbar",
+  "version": "0.1",
+  "description": "Cordova Navigation Bar Plugin",
+  "cordova": {
+    "id": "cordova-plugin-navigationbar",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tobiaswk/cordova-plugin-navigationbar.git"
+  },
+  "keywords": [
+    "cordova",
+    "statusnavigationbar",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [{
+    "name": "cordova",
+    "version": ">=3.0.0"
+  }],
+  "author": "Tobias Westergaard Kjeldsen <tobias@wkjeldsen.dk>",
+  "license": "Apache 2.0"
+}
