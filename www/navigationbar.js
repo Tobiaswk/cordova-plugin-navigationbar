@@ -17,11 +17,11 @@ var NavigationBar = {
       hexString
     ]);
   },
-}
+};
 
 // prime it
 exec(function(res) {
 
-}, null, "StatusBar", "_ready", []);
+}, null, "NavigationBar", "_ready", []);
 
 module.exports = NavigationBar;

@@ -3,21 +3,22 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="cordova-plugin-navigationbar"
     version="0.1">
-    <name>CoolPlugin</name>
+    <name>NavigationBar</name>
     <description>Navigation Bar Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,navigation,bar,color,android</keywords>
     <repo></repo>
     <issue></issue>
-    <js-module src="www/navigationbar.js" name="NavigationBarPlugin">
-        <clobbers target="NavigationBarPlugin" />
+    <js-module src="www/navigationbar.js" name="navigationbar">
+        <clobbers target="window.NavigationBar" />
     </js-module>
     <!-- android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="NavigationBarPlugin" >
-                <param name="android-package" value="NavigationBarPlugin"/>
-            </feature>
+            <feature name="NavigationBar" >
+                <param name="android-package" value="NavigationBar"/>
+		<param name="onload" value="true" />
+		</feature>
         </config-file>
         <source-file src="src/android/NavigationBar.java" target-dir="src/" />
     </platform>
