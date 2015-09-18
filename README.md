@@ -42,4 +42,4 @@ CSS shorthand properties are also supported.
 Supported Platforms
 -------------------
 
-- Android 5+
+- Android 5.0+
