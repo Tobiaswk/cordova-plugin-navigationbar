@@ -21,7 +21,7 @@ Although in the global scope, it is not available until after the `deviceready` 
 
     document.addEventListener("deviceready", onDeviceReady, false);
     function onDeviceReady() {
-        console.log(StatusBar);
+        console.log(NavigationBar);
     }
 
 - NavigationBar.backgroundColorByHexString
