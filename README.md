@@ -27,7 +27,19 @@ Although in the global scope, it is not available until after the `deviceready` 
 - NavigationBar.backgroundColorByHexString
 
 
+StatusBar.backgroundColorByHexString
+=================
+
+Sets the background color of the statusbar by a hex string.
+
+    StatusBar.backgroundColorByHexString("#C0C0C0");
+
+CSS shorthand properties are also supported.
+
+    StatusBar.backgroundColorByHexString("#333"); // => #333333
+    StatusBar.backgroundColorByHexString("#FAB"); // => #FFAABB
+
 Supported Platforms
 -------------------
 
-- Android 4.0+
+- Android 5+
