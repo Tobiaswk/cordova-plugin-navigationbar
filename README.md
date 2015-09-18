@@ -15,7 +15,7 @@ This installation method requires cordova 5.0+
 
 Methods
 -------
-This plugin defines global `StatusBar` object.
+This plugin defines global `NavigationBar` object.
 
 Although in the global scope, it is not available until after the `deviceready` event.
 
@@ -27,17 +27,17 @@ Although in the global scope, it is not available until after the `deviceready` 
 - NavigationBar.backgroundColorByHexString
 
 
-StatusBar.backgroundColorByHexString
+NavigationBar.backgroundColorByHexString
 =================
 
 Sets the background color of the statusbar by a hex string.
 
-    StatusBar.backgroundColorByHexString("#C0C0C0");
+    NavigationBar.backgroundColorByHexString("#C0C0C0");
 
 CSS shorthand properties are also supported.
 
-    StatusBar.backgroundColorByHexString("#333"); // => #333333
-    StatusBar.backgroundColorByHexString("#FAB"); // => #FFAABB
+    NavigationBar.backgroundColorByHexString("#333"); // => #333333
+    NavigationBar.backgroundColorByHexString("#FAB"); // => #FFAABB
 
 Supported Platforms
 -------------------
