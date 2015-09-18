@@ -10,7 +10,7 @@ NavigationBar
 
 This installation method requires cordova 5.0+
 
-    cordova plugin add https://github.com/Tobiaswk/cordova-plugin-statusbar.git
+    cordova plugin add https://github.com/Tobiaswk/cordova-plugin-navigationbar.git
 
 
 Methods
